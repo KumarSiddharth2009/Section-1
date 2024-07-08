@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <form action="name">
+        <label for="">Student Name</label>
+        <input id="name" type="text" required>
+        <br><br>
+
+        <label for="email">Student E-mail</label>
+        <input type="text" id="email" type="email" required>
+        <br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <br><br>
+
+        <label for="course">Course</label>
+        <select  id="course">
+            <option value="empty">Select Cource</option>
+            <option value="">Mern stack Development</option>
+            <option value="">Python data science</option>
+            <option value="">AI & ML</option>
+            <option value="">DSA</option>
+        </select>
+
+        <label for="">Collage</label>
+        <input type="text" list="collage-option">
+        <datalist id="collage-option">
+            <option >RRGI</option>
+            <option >BBDU</option>
+            <option >Integral</option>
+            <option >SRS</option>
+        </datalist>
+        <br><br>
+        <input type="checkbox" id="term">
+        <label for="term">Aceept the terms and condition</label>
+        <br><br>
+
+        <details>
+            <summary>Summery target
+            </summary>
+                <p>Lorem ipsum dolor sit amet consectetur,<mark> adipisicing </mark> elit. A vero provident accusamus error, magni ullam at? Quis ipsum corporis voluptate id nostrum. Culpa porro, quia in ut temporibus suscipit a facilis saepe iure commodi velit pariatur! Neque quaerat autem corrupti praesentium officia rerum. Vel maiores porro voluptates, minima nostrum minus.</p>
+        </details>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

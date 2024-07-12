@@ -1,3 +1,6 @@
+*{
+    font-family: montserrat;
+}
 body{
     height: 100vh;
     padding: 0;
@@ -5,13 +8,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-image: url("ba678918982743.562d2b857c574.jpg"); */
+    background-image: linear-gradient(0, rgba(192, 14, 219, 0),white), url("ba678918982743.562d2b857c574.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .card{
-    border: 2px solid black;
-    padding: 10%;
+    width: 25%;
+    height: 50%;
+    /* border: 2px solid black; */
+    padding: 2%;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.503);
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.663);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    /* background-image: linear-gradient(0, red, blue, yellow); */
 
+}
+.form_container{
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.form_container input{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: none; */
+    /* opacity: 0.6 ; */
 }
 
 .btn{
@@ -20,4 +53,19 @@ body{
     padding: 10px;
     border: none;
     border-radius: 20px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    background-color: black;
+}
+.for_a_new_account{
+    margin-top: 10px;
+    text-align: center;
+}
+.for_a_new_account,.forget_account {
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: crimson;
 }

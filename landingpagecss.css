@@ -49,5 +49,59 @@
 
 .card:hover{
     color: white;
-    background-color: rgba(135, 133, 133, 0.373);
+    background-color: green;
+}
+.service-section{
+    width: 80%;
+    margin: 50px auto;
+    /* height: 50vh; */
+    /* border: 1px solid blue; */
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.service-image{
+    /* background-color: aqua; */
+    /* border: 1px solid green; */
+}
+.service-image img{
+    width: 100%;
+}
+.service-info{
+    padding: 50px;
+    /* border: 1px solid red; */
+}   
+.servie-title{
+    list-style: none;
+    font-size: 40px;
+}
+.servie-feature li{
+    font-size: 20px;
+    margin: 20px 0;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 50px 50px; */
+    border: 1px solid red;
+    padding:20px ;
+    padding-right: 20px;
+    gap: 20px;
+    background-color: rgba(72, 70, 70, 0.958);
+    color: white;
+}
+.main-link{
+    font-size: 30px;
+}
+.main-link p{
+    font-size: 15px;
+}
+.main-link a, .page-link a, .social-link a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
 }
